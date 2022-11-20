@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int a[100]={1,2,3,4,5};
+    int a[]={1,2,3,4,5};
     int n=sizeof(a)/sizeof(int);
     int key=8;
     bool isFoundkey=false;
@@ -15,7 +15,7 @@ int main(){
     if(isFoundkey==true){
         cout<<"Key found"<<endl;
     }
-    else{
+    else if(isFoundkey==false){
         cout<<"Key not found"<<endl;
     }
 }
